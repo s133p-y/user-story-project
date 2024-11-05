@@ -15,7 +15,6 @@ Use your knowledge of object-oriented programming, one-dimensional (1D) arrays, 
 
 ## User Story 
 
-Include your User Story you analyzed for your project here. Your User Story should have the following format: 
 
 > As an [traveling agent], <br> 
 > I want to [create a list of ideal travel destinations and important inforgraphics], <br> 
@@ -23,11 +22,8 @@ Include your User Story you analyzed for your project here. Your User Story shou
 
 ## Dataset 
 
-Include a hyperlink to the source of your dataset used for this project. Additionally, provide a short description of each column used from the dataset, and the data type. 
 
-Example: 
-
-Dataset: https://www.kaggle.com/datasets/sansuthi/global-co2-emissions 
+Dataset: https://www.kaggle.com/datasets/umeradnaan/tourism-dataset
 - **Country** (String) - name of the country 
 - **Visitor** (int) - number of people in the country 
 - **Rating** (double) - the rating of the area ranging 1-4.5
@@ -40,4 +36,4 @@ Dataset: https://www.kaggle.com/datasets/sansuthi/global-co2-emissions
 
 ## Description 
 
-Write a description of your project here. In your description, include as many vocab words from our class to explain your User Story, the chosen dataset and how your project addressed that users goals. If your project used the Scanner class for user input, explain how the user will interact with your project. 
+Our code gets the information about the tourist travel destinations and display the most and least visited locations. By using 1D arrays of 100 values and 4 different classes, the user receives an element of information from each data structure. The user story relates to the ideal location based on the user input of the rating and accommodation. The user can put in a number 0-4 and a “Yes” or “No” input in order to narrow down the possibilities for the locations that can applied to their needs. By using the increments and decrements of 0.5 the possibilities are narrowed down to meet the users needs. 
